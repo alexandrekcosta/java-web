@@ -1,9 +1,0 @@
-package br.edu.uniceplac.compra.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import br.edu.uniceplac.compra.entidade.CarrinhoEntity;
-
-public interface CarrinhoRepository extends JpaRepository<CarrinhoEntity, Long> {
-
-}
